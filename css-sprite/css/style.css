@@ -1,0 +1,13 @@
+#anima-div
+{
+    background: url("../img/imagem2.png");
+    width: 30000px;
+    height: 300px;
+    animation: anima-sprite 1s steps(8) infinite;
+
+}
+
+@keyframes anima-sprite{
+    from {background-position: 0px;}
+    to {background-position: -1920px;}
+}
